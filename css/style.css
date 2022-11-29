@@ -55,3 +55,10 @@
 .menu ul li:hover{
     color: #fff;
 }
+
+/*### BANNER ###*/
+
+.banner img{
+    width: 100%;
+    margin-top: 2%;
+}
