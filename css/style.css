@@ -4,6 +4,7 @@
 .pagina{
     max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 
@@ -29,6 +30,12 @@
     width: 30vw;
     position: absolute;
     top: 0;
+    left: -400px;
+    transition: ease-in-out 0.7s;
+}
+
+.menudisplay{
+    left: 0 !important;
 }
 
 .menu ul{
