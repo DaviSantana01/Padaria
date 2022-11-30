@@ -17,7 +17,8 @@
 
 .burguer{
     margin-top: 2%;
-    text-align: center;
+    text-align: start;
+    margin-left: 5%;
     position: relative;
     font-family: 'Roboto', sans-serif;
 }
@@ -39,10 +40,27 @@
     left: -400px;
     transition: ease-in-out 0.7s;
     z-index: 10;
+    text-align: end;
+}
+
+.menu i{
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(223, 223, 223);
+    transition: ease-in-out 0.7s;
+    margin-top: 5%;
+    margin-right: 5%;
+
+}
+
+.menu i:hover{
+    color: #fff;
 }
 
 .menudisplay{
     left: 0 !important;
+    text-align: end;
 }
 
 .menu ul{
