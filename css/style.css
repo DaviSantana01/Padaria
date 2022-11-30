@@ -115,22 +115,33 @@
 
 /*### SEÇÃO 2 ###*/
 
-.secao2{
+.cor_section{
     background-color: rgb(254, 239, 231);
+}
+
+.cor_section h2{
+    font-size: 3rem;
+    font-family: var(--primaria);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.secao2{
     text-align: center;
     padding-top: 5%;
     width: 100%;
+    display: flex;
 }
 
 .secao2 article{
     width: 50%;
 }
 
-.secao2 h2{
-    font-size: 3rem;
-    font-family: var(--primaria);
-    font-weight: bolder;
-    
+.secao2 article img{
+    width: 80%;
+    margin-top: 20%;
+    border-radius: 90% 20% 90% 20%;
 }
 
 .secao2 article h3{
