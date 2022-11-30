@@ -7,6 +7,10 @@
     overflow: hidden;
 }
 
+:root{
+    --primaria: 'Roboto', sans-serif;
+}
+
 
 /*#### HAMBURGUER ###*/
 
@@ -14,6 +18,7 @@
     margin-top: 2%;
     text-align: center;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .burguer i{
@@ -59,6 +64,7 @@
 
 /*### BANNER ###*/
 
+
 .banner{
     position: relative;
 }
@@ -66,10 +72,42 @@
 .banner img{
     width: 100%;
     margin-top: 2%;
+    height: 85vh;
+    object-fit: cover;
 }
 
 .text_banner{
-    text-align: center;
     position: absolute;
-    top: 50%;
+    top: 30%;
+    text-align: center;
+    color: #fff;
+    font-family: var(--primaria);
+    right: 8%;
+}
+
+.text_banner h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.text_banner h3{
+    font-size: 2.2rem;
+    margin-top: 5%;
+    font-weight: normal !important;
+
+}
+
+.text_banner button{
+    font-size: 1.2rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 2% 5% 2% 5%;
+    background-color: rgb(243, 168, 30);
+    margin-top: 4%;
+}
+
+.text_banner button:hover{
+    background-color: rgb(226, 147, 0);
+
 }
