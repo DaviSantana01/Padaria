@@ -226,6 +226,20 @@
 
 /*### CATALOGO ###*/
 
+.cor_catalogo{
+    background-color: rgb(37, 37, 37);
+
+}
+
+.cor_catalogo h2{
+    font-family: var(--primaria);
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    margin: 5%;
+}
+
 .catalogo{
     margin: 0 auto;
     display: grid;
@@ -233,7 +247,8 @@
     width: 90%;
     grid-gap: 2%;
     justify-content: center;
-
+    padding: 1%;
+    margin-bottom: 5%;
 }
 
 .catalogo div img{
