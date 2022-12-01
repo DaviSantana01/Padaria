@@ -145,7 +145,7 @@
     padding-top: 5%;
 }
 
-.secao2{
+.secao{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -153,17 +153,17 @@
     display: flex;
 }
 
-.secao2 article{
+.secao article{
     width: 50%;
 }
 
-.secao2 article img{
+.secao article img{
     width: 80%;
-    margin-top: 20%;
+    margin-top: 10%;
     border-radius: 90% 20% 90% 20%;
 }
 
-.secao2 article h3{
+.secao article h3{
     text-align: start;
     margin-left: 5%;
     font-size: 3rem;
@@ -173,7 +173,7 @@
     color: rgb(243, 168, 30);
 }
 
-.secao2 h4{
+.secao h4{
     font-size: 1.8rem;
     font-family: var(--primaria);
     font-weight: bolder;
@@ -182,10 +182,15 @@
     margin-top: 5%;
 }
 
-.secao2 p{
+.secao p{
     font-family: var(--secundaria);
     font-weight: bold;
     margin-top: 5%;
     line-height: 25px;
+
+}
+
+.editimg2 article img{
+    border-radius: 20% 90% 20% 90% !important;
 
 }
