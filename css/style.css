@@ -251,8 +251,33 @@
     margin-bottom: 5%;
 }
 
+.catalogo div{
+    overflow: hidden;
+    position: relative;
+}
+
+
 .catalogo div img{
     width: 100%;
     height: 300px;
     object-fit: cover;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.catalogo div p{
+    color: #fff;
+    font-family: var(--primaria);
+    font-size: 2rem;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    z-index: 10;
+}
+
+
+.catalogo div img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    background-color: black;
 }
