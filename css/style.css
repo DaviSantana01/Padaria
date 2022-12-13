@@ -286,6 +286,15 @@
 
 .cor_precos{
     background-color: rgb(254, 239, 231);
+    padding-bottom: 2%;
+}
+
+.cor_precos h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 5%;
+    font-family: var(--primaria);
+    font-weight: bolder;
 }
 
 .precos {
