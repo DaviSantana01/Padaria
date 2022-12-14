@@ -317,3 +317,34 @@
 .precos div span{
     color: #f66415;
 }
+
+/*### SOBRE NÓS ###*/
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sobre article{
+    width: 45%;
+    margin-top: 5%;
+}
+
+.sobre article img{
+    width: 85%;
+    border-radius: 90% 20% 90% 20%;
+}
+
+.sobre article h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--primaria);
+    font-weight: bolder;
+}
+
+.sobre article p{
+    font-family: var(--secundaria);
+    font-weight: bold;
+    margin-top: 5%;
+    line-height: 25px;
+}
