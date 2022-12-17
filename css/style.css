@@ -471,10 +471,16 @@ textarea{
 }
 
 .cor_rodape hr{
-    border-color: #727272;
+    border-color: #c9c9c9;
     padding: 0.5px;
-    background-color: #727272;
+    background-color: #c9c9c9;
     margin-top: 3%;
+}
+
+.cor_rodape p{
+    font-family: var(--secundaria);
+    text-align: center;
+    color: #c9c9c9;
 }
 
 .rodape{
@@ -483,9 +489,16 @@ textarea{
    
 }
 
+.rodape div img{
+    width: 60%;
+    margin-top: -3%;
+    filter: invert(100%);
+}
+
 .rodape div ul li{
     font-family: var(--secundaria);
     font-weight: 700;
+    color: #c9c9c9;
 }
 
 .redes_s div{
@@ -497,7 +510,7 @@ textarea{
 .redes_s div a {
     font-size: 1.8rem;
     margin:2%;
-    color: #fff;
+    color: #c9c9c9;
 }
 
 
