@@ -404,3 +404,55 @@
     font-size: 1.5rem;
     margin-top: 15%;
 }
+
+/*### FORMULARIO ###*/
+
+
+.estilo_form div{
+    width: 100%;
+    display: flex;
+    margin-top: 8%;
+    justify-content: space-around;
+}
+
+.estilo_form div article{
+    width: 45%;
+}
+.estilo_form div article img{
+    width: 85%;
+    border-radius: 20% 90% 20% 90%;
+}
+
+.estilo_form div article{
+    text-align: start;
+}
+
+.estilo_form div article h2{
+    font-size: 2.2rem;
+    font-family: var(--primaria);
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+
+.estilo_form div article p{
+    font-family: var(--secundaria);
+    font-weight: bold;
+    margin-top: 2%;
+    line-height: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+input{
+    margin-right: 100%;
+    margin-bottom: 5%;
+}
+
+.estilo_form div article label{
+    font-family: var(--primaria);
+    font-size: 1.2rem;
+    color: #000;
+    width: 50%;
+}
+
+
