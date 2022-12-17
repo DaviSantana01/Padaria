@@ -466,18 +466,38 @@ textarea{
 .cor_rodape{
     background-color: rgb(26, 26, 26);
     color: #fff;
+    margin-top: 5%;
+    padding: 8% 5% 5% 5%;
+}
+
+.cor_rodape hr{
+    border-color: #727272;
+    padding: 0.5px;
+    background-color: #727272;
+    margin-top: 3%;
 }
 
 .rodape{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    padding: 8% 5% 5% 5%;
-    margin-top: 5%;
+   
 }
 
 .rodape div ul li{
     font-family: var(--secundaria);
     font-weight: 700;
+}
+
+.redes_s div{
+    display: flex;
+    justify-content: center;
+}
+
+
+.redes_s div a {
+    font-size: 1.8rem;
+    margin:2%;
+    color: #fff;
 }
 
 
