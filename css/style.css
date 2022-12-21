@@ -292,7 +292,7 @@
 
 .precos {
     display: grid;
-    grid-template-columns: 0.6fr 0.6fr;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
     justify-content: space-around;
     font-family: var(--primaria);
     font-size: 1.3rem;
