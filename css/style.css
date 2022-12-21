@@ -84,24 +84,17 @@
 /*### BANNER ###*/
 
 
-.banner{
-    position: relative;
+.back_banner{
+    background: url(../img/banner.jpg) no-repeat center fixed;
+    background-size: 100%;
 }
 
-.banner img{
-    width: 100%;
-    margin-top: 2%;
-    height: 85vh;
-    object-fit: cover;
-}
 
 .text_banner{
-    position: absolute;
-    top: 30%;
     text-align: center;
-    color: #fff;
     font-family: var(--primaria);
-    right: 8%;
+    padding: 15% 0 15% 0;
+    color: #fff;
 }
 
 .text_banner h2{
