@@ -147,6 +147,14 @@
     display: flex;
 }
 
+@media(max-width: 750px) {
+    .secao {
+      flex-direction: column;
+    }
+    .secao article{
+        width: 100%  !important;
+    }
+  }
 .secao article{
     width: 50%;
 }
