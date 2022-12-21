@@ -482,8 +482,12 @@ textarea{
 
 .rodape{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-   
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    justify-content: space-around;
+}
+
+.rodape div{
+    margin-top: 5%;
 }
 
 .rodape div img{
@@ -496,6 +500,7 @@ textarea{
     font-family: var(--secundaria);
     font-weight: 700;
     color: #c9c9c9;
+    text-align: center;
 }
 
 .redes_s div{
