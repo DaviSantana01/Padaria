@@ -64,6 +64,12 @@
     text-align: end;
 }
 
+@media(max-width:750px){
+    .menu{
+        width: 100vw;
+    }
+}
+
 .menu ul{
     margin-top: 25%;
     text-align: center;
