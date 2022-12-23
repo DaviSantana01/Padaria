@@ -474,10 +474,7 @@
         text-align: center;
     }
     .estilo_form  div article img{
-        width: 90% !important;
-    }
-    .estilo_form div article:nth-child(2){
-        text-align: center !important;
+        display: none;
     }
 }
 
@@ -582,6 +579,12 @@ textarea{
     font-size: 1.8rem;
     margin:2%;
     color: #c9c9c9;
+}
+
+@media(max-width:750px){
+    .redes_s div a{
+        margin: 5%;
+    }
 }
 
 
