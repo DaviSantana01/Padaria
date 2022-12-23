@@ -96,6 +96,12 @@
     background-size: 100%;
 }
 
+@media(max-width:750px){
+    .back_banner{
+        background-size: 300%;
+    }
+}
+
 
 .text_banner{
     text-align: center;
