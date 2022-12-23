@@ -464,6 +464,22 @@
     justify-content: space-around;
 }
 
+@media(max-width:750px){
+    .estilo_form div{
+        flex-direction: column;
+    }
+    .estilo_form div article{
+        width: 100% !important;
+        text-align: center;
+    }
+    .estilo_form  div article img{
+        width: 90% !important;
+    }
+    .estilo_form div article:nth-child(2){
+        text-align: center !important;
+    }
+}
+
 .estilo_form div article{
     width: 45%;
 }
@@ -538,8 +554,8 @@ textarea{
     justify-content: space-around;
 }
 
-.rodape div{
-    margin-top: 5%;
+.rodape div ul{
+    margin-bottom: 5%;
 }
 
 .rodape div img{
