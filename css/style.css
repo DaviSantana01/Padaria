@@ -353,6 +353,7 @@
 .sobre{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5%;
 }
 
 @media(max-width:750px){
