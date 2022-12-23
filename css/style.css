@@ -217,9 +217,19 @@
 
 /*### DESCONTOS ###*/
 
+@media(max-width:750px){
+    .desconto button{
+        font-size: 1.8rem !important;
+        margin-top: 5% !important;
+    }
+}
+
+.cor_desc{
+    background-color: rgb(243, 168, 30);
+}
+
 .desconto{
     text-align: center;
-    background-color: rgb(243, 168, 30);
     color: #fff;
     font-family: var(--primaria);
     padding-top: 10%;
