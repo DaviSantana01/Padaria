@@ -355,6 +355,16 @@
     justify-content: space-around;
 }
 
+@media(max-width:750px){
+    .sobre{
+        flex-direction: column;
+    }
+    .sobre article{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
 .sobre article{
     width: 45%;
     margin-top: 5%;
