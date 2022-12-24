@@ -38,7 +38,7 @@
     width: 30vw;
     position: absolute;
     top: 0;
-    left: -400px;
+    left: -1000px;
     transition: ease-in-out 0.7s;
     z-index: 10;
     text-align: end;
