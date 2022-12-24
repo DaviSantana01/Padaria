@@ -39,8 +39,7 @@
     position: absolute;
     top: 0;
     left: -1000px;
-    transition: ease-in-out 0.7s;
-    z-index: 10;
+    transition: ease-in-out 1.5s;
     text-align: end;
 }
 
@@ -49,7 +48,7 @@
     text-align: center;
     cursor: pointer;
     color: rgb(223, 223, 223);
-    transition: ease-in-out 0.7s;
+    transition: ease-in-out 1.5s;
     margin-top: 5%;
     margin-right: 5%;
 
